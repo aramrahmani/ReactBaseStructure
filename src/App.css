@@ -1,0 +1,53 @@
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+   /* For desktop: */
+ .home-header{
+   height: 300px !important;
+ }
+}
+
+
+@media (max-width: 600px) {
+   /* For tablets: */
+  .home-header{
+    height: 200px !important;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  /* For desktop: */
+  .home-header{
+    height: 711px !important;
+  }
+}
+
+a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);;
+}
+
+/* Home */
+.home-header{
+  height: 711px;
+  width: 100%;
+  background-image: url(./assets/images/home-header.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
